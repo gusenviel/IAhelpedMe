@@ -6,7 +6,8 @@ import Auth from './Auth';
 function PageRoutes() {
     return (
         <div className="App">
-           <header className="App-header">         
+           <header className="App-header">  
+                  
            </header>
             <Router>
                 <div>
