@@ -5,25 +5,29 @@ import Auth from './Auth';
 
 function PageRoutes() {
     return (
-        <Router>
-            <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/auth">Auth</Link>
-                        </li>
-                    </ul>
-                </nav>
+        <div className="App">
+           <header className="App-header">         
+           </header>
+            <Router>
+                <div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <Link to="/">Home</Link>
+                            </li>
+                            <li>
+                                <Link to="/auth">Auth</Link>
+                            </li>
+                        </ul>
+                    </nav>
 
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/auth" element={<Auth />} />
-                </Routes>
-            </div>
-        </Router>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/auth" element={<Auth />} />
+                    </Routes>
+                </div>
+            </Router>
+     </div>
     );
 }
 
