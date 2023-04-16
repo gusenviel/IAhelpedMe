@@ -1,15 +1,23 @@
 // import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Auth from './Auth';
+// import Auth from './Auth';
+import PageRoutes from './Routes';
+
 
 
 function App() {
-  return (
-    <div className="App">
-      <Auth />
-    </div>
-  );
+  return <PageRoutes />;
 }
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <Auth />
+//     </div>
+//   );
+// }
 
 
 
